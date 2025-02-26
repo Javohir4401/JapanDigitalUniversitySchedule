@@ -10,7 +10,7 @@ use App\Models\Subject;
 use App\Models\Teacher;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Database\Factories\UserFactory;
+use Database\Factories\StudentFactory;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -27,9 +27,9 @@ class DatabaseSeeder extends Seeder
 //            'name' => 'Test User',
 //            'email' => 'test@example.com',
 //        ]);
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;'); // Foreign key cheklovlarini vaqtincha o‘chirish
-        Role::query()->truncate(); // Jadvalni tozalash
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;'); // Cheklovlarni qayta yoqish
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        Role::query()->truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         $roles = ['admin', 'subject', 'teacher'];
 

@@ -1,13 +1,13 @@
 <?php
 
-use App\Http\Controllers\API\GroupController;
-use App\Http\Controllers\API\GroupStudentController;
-use App\Http\Controllers\API\GroupSubjectController;
-use App\Http\Controllers\API\RoleUserController;
-use App\Http\Controllers\API\RoomController;
-use App\Http\Controllers\API\SubjectController;
-use App\Http\Controllers\API\AuthController;
-use App\Http\Controllers\API\SubjectTeacherController;
+use App\Http\Controllers\Api\GroupController;
+use App\Http\Controllers\Api\GroupStudentController;
+use App\Http\Controllers\Api\GroupSubjectController;
+use App\Http\Controllers\Api\RoleUserController;
+use App\Http\Controllers\Api\RoomController;
+use App\Http\Controllers\Api\SubjectController;
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\SubjectTeacherController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
